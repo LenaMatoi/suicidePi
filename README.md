@@ -1,2 +1,8 @@
-# suicidePi
-Programa en bash para activar servo para poner la inyeccion letal y controlar constantes vitales de la persona hasta el fallecimiento
+# suicidePi by Lena Matoi
+
+# Muere dignamente por poco dinero.
+
+Programa en PYTHON para activar servo para poner la inyeccion letal y controlar constantes vitales de la persona hasta el fallecimiento
+
+13/06/2021 EL DESARROLLO COMIENZA EN UNA RASPBERRY PI 4 CON RASPBERRY PI OS, SE CONTROLARAN LOS SERVOS QUE INYECTARA LA DOSIS DE PENTOBARBITAL SODICO CON UNOS SERVOS Y CON UN SENSOR CARDIACO, CUANDO ESTE HA SIDO INYECTADO, LA RASPBERRY EMPEZARA A CONTAR LAS HORAS, MINUTOS Y SEGUNDOS QUE TARDARA EL CUERPO EN FALLECER.
+EL SENSOR SE COLOCA EN EL DEDO INDICE O ANULAR Y ESTE A LA GPIO DE LA RASPBERRY PI, CUANDO LA RPI MIDA UN PULSO INFERIOR A 20 ANOTARA LA HORA FINAL DEL FALLECIMIENTO Y MANDARA EL APAGADO DEL SISTEMA RASPBERRY PI.
